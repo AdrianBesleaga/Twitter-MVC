@@ -3,25 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cgm</groupId>
-	<artifactId>twitter</artifactId>
+	<artifactId>twitter-mvc</artifactId>
 	<name>Twitter</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.6</java-version>
-		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
+		<org.springframework-version>4.3.10.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
 
-		<!-- Twitter Data -->
-		<dependency>
-			<groupId>TwitterData</groupId>
-			<artifactId>TwitterData</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<type>jar</type>
-		</dependency>
 
 		<!-- Tiles -->
 

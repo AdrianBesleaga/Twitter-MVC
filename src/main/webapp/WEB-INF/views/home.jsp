@@ -3,11 +3,11 @@
 <%@ page session="true"%>
 <html>
 <head>
-<title>Cool Twitter</title>
+<title>SpriTTer MVC</title>
 <link href="<c:url value="resources/style.css" />" rel="stylesheet">
 </head>
 <body>
-	<h1>Welcome to SpriTTer</h1>
+	<h1>Welcome to SpriTTer MVC</h1>
 
 	<P>The time on the server is ${serverTime}.</P>
 
